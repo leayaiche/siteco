@@ -1,0 +1,33 @@
+.navbar {
+  margin-bottom: 50px;
+}
+
+.dropdown-item {
+  font-family: fantasy;
+}
+.navbar-brand {
+  font-family: fantasy;
+}
+.nav-link {
+  font-family: fantasy;
+}
+
+.para1 {
+  font-family: fantasy;
+  text-align: center;
+  margin-right: 50%;
+  font-size: 20px;
+}
+
+.para2 {
+  font-family: fantasy;
+  text-align: center;
+  margin-left: 50%;
+  font-size: 20px;
+}
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 3em;
+  border-bottom: 2px solid black;
+}

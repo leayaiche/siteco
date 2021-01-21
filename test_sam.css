@@ -1,0 +1,19 @@
+.image1 {
+  background: url(test.png);
+  width: 300px;
+  height: 300px;
+}
+
+.description {
+  visibility: hidden;
+  color: white;
+  background-color: blue;
+  opacity: 0.8;
+  filter: blur(25px);
+  height: 300px;
+  width: 300px;
+}
+
+.image1:hover .description {
+  visibility: visible;
+}

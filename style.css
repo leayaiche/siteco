@@ -1,0 +1,75 @@
+.navbar {
+  margin-bottom: 50px;
+}
+
+.dropdown-item {
+  font-family: fantasy;
+}
+.navbar-brand {
+  font-family: fantasy;
+}
+.nav-link {
+  font-family: fantasy;
+}
+
+p {
+  font-family: fantasy;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 20px;
+  line-height: 50px;
+  margin: 100px 100px 100px 100px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 3em;
+  border-bottom: 2px solid black;
+}
+
+img {
+  width: 450px;
+  height: 300px;
+  margin: 15px;
+  transition: all 1s;
+  /* box-shadow: 5px 5px 5px 5px black; */
+  box-shadow: 0px 0px 15px gray;
+}
+
+img:hover {
+  box-shadow: 0px 0px 15px black;
+  transform: scale(1.1);
+}
+
+/* .image1 {
+  background: url(test.png);
+  width: 450px;
+  height: 300px; 
+}*/
+
+.description1 {
+  visibility: hidden;
+  color: #00e1ff;
+  background-color: blue;
+  opacity: 0.8;
+  filter: blur(25px);
+  height: 300px;
+  width: 450px;
+}
+
+.image1:hover .description1 {
+  visibility: visible;
+}
+
+/* background-color: gray;
+  opacity: 0.8;
+  filter: blur(25px);
+  height: 300px;
+  width: 450px; */

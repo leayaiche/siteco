@@ -1,0 +1,43 @@
+.navbar {
+  margin-bottom: 50px;
+}
+
+.dropdown-item {
+  font-family: fantasy;
+}
+.navbar-brand {
+  font-family: fantasy;
+}
+.nav-link {
+  font-family: fantasy;
+}
+
+img {
+  width: 450px;
+  height: 300px;
+  margin: 20px;
+  transition: all 1s;
+  /* box-shadow: 5px 5px 5px 5px black; */
+  box-shadow: 0px 0px 15px gray;
+}
+
+img:hover {
+  box-shadow: 0px 0px 15px black;
+}
+
+img:hover {
+  transform: scale(0.95);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 3em;
+  border-bottom: 2px solid black;
+}
